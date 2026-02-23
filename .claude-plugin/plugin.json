@@ -1,0 +1,8 @@
+{
+  "name": "glossary",
+  "description": "Create and manage a project-wide ubiquitous language glossary — a shared vocabulary as version-controlled YAML files. Bridges code_name, ui_label, and business language. Supports bounded contexts, typed relationships, and three modes: explore, add, and maintain.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Emiel"
+  }
+}
