@@ -1,0 +1,12 @@
+{
+  "name": "tsipotu-glossary",
+  "owner": {
+    "name": "Emiel"
+  },
+  "plugins": [
+    {
+      "name": "glossary",
+      "source": "./"
+    }
+  ]
+}
