@@ -22,7 +22,7 @@ claude plugin install glossary@tsipotu-glossary
 
 The skill triggers on phrases like "glossary", "terminology", "ubiquitous language", "what does X mean", "define a term", "add a term", "glossary health", or "stale terms".
 
-```
+```text
 > What does Order mean?
 > Add Cart Item to the checkout glossary
 > How does Cart relate to Order?
@@ -62,7 +62,7 @@ terms:
 ### Relationship types
 
 | Type | Meaning | Auto-inferred inverse |
-|---|---|---|
+| --- | --- | --- |
 | `contains` | Parent owns children | `part_of` |
 | `references` | Uses but doesn't own | `referenced_by` |
 | `leads_to` | Flow to a different entity | `follows` |
@@ -76,7 +76,7 @@ Inverses are auto-inferred — only store forward relationships in YAML.
 The glossary is plain YAML in a known location. Any tool can read it — no special API needed. The file format is the API.
 
 | Tool | Integration |
-|---|---|
+| --- | --- |
 | **Gherkin skill** | Reads `ui_label` for steps, flags new terms not in glossary |
 | **Contextive** | VS Code hover definitions (compatible format) |
 | **Code review** | Flags identifiers that don't match `code_name` entries |

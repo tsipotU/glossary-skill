@@ -26,7 +26,7 @@
 ## Field Reference
 
 | Field | Required | Type | Description |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | `name` | Yes | string | The canonical term name. Title case. |
 | `definition` | Yes | string | Plain-language definition anyone can understand. 1-2 sentences. |
 | `aliases` | No | list | Other names people use for this term. |
@@ -40,7 +40,7 @@
 ## Relationship Types
 
 | Type | Meaning | Auto-inferred inverse |
-|---|---|---|
+| --- | --- | --- |
 | `contains` | Parent owns children | `part_of` |
 | `references` | Uses but doesn't own | `referenced_by` |
 | `leads_to` | Flow to a different entity | `follows` |
